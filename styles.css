@@ -1,0 +1,135 @@
+body {
+  text-align: center;
+  background-color: #0F172A  ;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #00E7FF   ;
+  font-family: "Arvo", cursive;
+  text-shadow: 2px 0 #F4F4F4 ;
+
+}
+
+  #userSuggestion {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #F4F4F4;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0px 2px 8px rgba(255, 255, 255, 0.1);
+  }
+
+footer {
+  margin-top: 2%;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+footer a {
+  color: #FFD700 ;
+  text-decoration: underline;
+}
+
+/* Images for each drum */
+
+.w {
+  background-image: url("images/tom1.png");
+}
+
+.a {
+  background-image: url("images/tom2.png");
+}
+
+.s {
+  background-image: url("images/tom3.png");
+}
+
+.d {
+  background-image: url("images/tom4.png");
+}
+
+.j {
+  background-image: url("images/snare.png");
+}
+
+.k {
+  background-image: url("images/crash.png");
+}
+
+.l {
+  background-image: url("images/kick.png");
+}
+
+.set {
+  /* margin: 10% auto; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px; /* Adds spacing between buttons */
+  margin: 5% auto;
+  max-width: 90%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #F4F4F4;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
+// Button Styling
+#playAll {
+  margin-top: 5px;
+  background-color: #FFD700 !important; /* Gold background */
+  color: #1B263B; /* Dark blue text */
+  border: 2px solid #FFD700; /* Add a border with the same gold color */
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block; /* Keeps button inline but centered */
+  text-align: center;
+  outline: none; /* Removes any outline on focus */
+}
+
+#playAll:hover {
+  background-color: #FFC107; /* Slightly darker gold on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+#playAll:active {
+  background-color: #E0C200; /* Muted gold when clicked */
+  transform: scale(0.95); /* Slight shrink effect */
+}
