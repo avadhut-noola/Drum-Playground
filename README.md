@@ -14,7 +14,7 @@ Click the drum buttons (w, a, s, d, j, k, l) to play sounds.
 Alternatively, you can press the corresponding keys on your keyboard to play the sounds.  
 Click the "Play Drumroll" button to play all sounds sequentially.  
 
-File Structure
+# File Structure
 ```
 index.html - The main HTML file containing the structure of the webpage.
 styles.css - The CSS file for styling the page and buttons.
@@ -25,5 +25,4 @@ images/ - Folder containing the drum image files.
 
 # Accessing the Project
 You can access the Drum Playground directly on GitHub Pages by visiting the following link:  
-Drum Playground on GitHub Pages  
-
+[Drum Playground on GitHub Pages](https://avadhut-noola.github.io/Drum-Playground/)
