@@ -12,7 +12,7 @@ h1 {
 }
 
   #userSuggestion {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: sans-serif;
     font-weight: 500;
     color: #F4F4F4;
@@ -24,7 +24,7 @@ h1 {
   }
 
 footer {
-  margin-top: 2%;
+  margin-top: 10%;
   text-align: center;
   font-family: sans-serif;
 }
@@ -107,9 +107,9 @@ footer a {
 }
 
 
-// Button Styling
+/* Button Styling */
 #playAll {
-  margin-top: 5px;
+  margin-top: 15px;
   background-color: #FFD700 !important; /* Gold background */
   color: #1B263B; /* Dark blue text */
   border: 2px solid #FFD700; /* Add a border with the same gold color */
